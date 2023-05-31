@@ -1,0 +1,53 @@
+Package: LDABiplots
+Type: Package
+Title: Biplot Graphical Interface for LDA Models
+Version: 0.1.0
+Authors@R: 
+    c(person(given = "Luis",
+             family = "Pilacuan-Bonete",
+             role = c("cre","aut"),
+             email = "luis.pilacuanb@usal.es",
+             comment = c(ORCID = "0000-0002-6625-0905")),
+      person(given = "Purificacion",
+             family = "Galindo-Villardón",
+             role = c("aut"),
+             email = "pgalindo@usal.es",
+             comment = c(ORCID = "0000-0001-6977-7545")),
+      person(given = "Javier",
+             family = "De La Hoz Maestre",
+             role = c("aut"),
+             email = "jdelahoz@unimagdalena.edu.co",
+             comment = c(ORCID = "0000-0001-7779-0803")),
+      person(given = "Francisco Javier",
+             family = "Delgado-Álvarez",
+             role = c("aut"),
+             email = "j.delgado@usal.es",
+             comment = c(ORCID = "0000-0002-2626-2709")))
+Maintainer: Luis Pilacuan-Bonete <luis.pilacuanb@ug.edu.ec>
+Description: It contains the development of a tool that provides a web-based graphical
+             user interface (GUI) to perform Biplots representations from a scraping of
+             news from digital newspapers under the Bayesian approach of Latent Dirichlet 
+             Assignment (LDA) and machine learning algorithms. Contains LDA methods 
+             described by Blei, David M., Andrew Y. Ng and Michael I. Jordan (2003),
+             and Biplot methods described by Gabriel K.R(1971) and Galindo-Villardon P(1986).
+License: GPL-3
+Encoding: UTF-8
+Imports: shiny, shinydashboard, shinyjs, shinyBS, shinyWidgets,
+        shinycssloaders, shinybusy, shinyalert, dplyr, DT(>= 0.23),
+        highcharter(>= 0.9.4), SnowballC(>= 0.7.0), topicmodels, rvest,
+        textmineR, chinese.misc, readxl(>= 1.4.0), quanteda(>= 3.2.1),
+        textreadr, ggplot2(>= 2.2.0), ggrepel(>= 0.9.1), glasso,
+        gtools, textplot, tidyr, beepr(>= 1.3), stringr
+RoxygenNote: 7.2.3
+Suggests: rmarkdown, knitr, utils
+VignetteBuilder: knitr
+NeedsCompilation: no
+Packaged: 2023-05-24 20:43:57 UTC; jdelahozmaestre
+Author: Luis Pilacuan-Bonete [cre, aut]
+    (<https://orcid.org/0000-0002-6625-0905>),
+  Purificacion Galindo-Villardón [aut]
+    (<https://orcid.org/0000-0001-6977-7545>),
+  Javier De La Hoz Maestre [aut]
+    (<https://orcid.org/0000-0001-7779-0803>),
+  Francisco Javier Delgado-Álvarez [aut]
+    (<https://orcid.org/0000-0002-2626-2709>)
